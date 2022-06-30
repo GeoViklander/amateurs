@@ -1,0 +1,39 @@
+#container{
+    background: #999;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+
+    align-items: center;
+
+   
+
+}
+
+
+.item{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.item:nth-child(1){
+    flex-grow: 1;
+    order: 1;
+}
+
+.item:nth-child(2){
+    flex-shrink: 3;
+    order: 1;
+}
+
+.item:nth-child(3){
+    flex-grow: 1;
+    
+}
+
