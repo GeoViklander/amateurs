@@ -1,0 +1,90 @@
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo__image {
+  display: inline-block;
+  width: 100px;
+}
+
+.logo__link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo__name {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Six Caps';
+  letter-spacing: 7px;
+  margin-left: 10px;
+  letter-spacing: 7px;
+  margin-left: 10px;
+}
+
+.logo__legend {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  word-spacing: 60px;
+  text-align: center;
+  display: block;
+  width: calc(100% - 100px);
+  margin-left: auto;
+}
+
+.banner__image {
+  position: absolute;
+  background-image: url(../img/banner.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu__item {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Bahnschrift Regular';
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 102px);
+  justify-content: flex-end;
+}
+
+.banner__slogan {
+  font-family: 'Bebas Neue';
+  text-transform: uppercase;
+  color: white;
+  text-align: end;
+  font-size: 80px;
+  margin-bottom:200px;
+}
+
+body {
+ background-color: #020234;
+}
+

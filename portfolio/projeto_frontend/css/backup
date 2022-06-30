@@ -1,0 +1,107 @@
+div {}
+
+body {
+  font-family: Arial, verdana, tahoma;
+  font-size: 100%;
+  line-height: 24px;
+
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: white;
+  height: auto;
+
+
+}
+
+.header__logo a {
+  background-color: white;
+  background-image: url(../img/LOGOTIPO.png);
+  width: 155px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 90%;
+  display: inline-block;
+  text-indent: -9000px;
+}
+
+.header__navbar ul li {
+  /* border: 1px black solid;*/
+  width: 204px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  float: right;
+  background-color: midnightblue;
+  color: black;
+  text-decoration: none;
+  margin-top: -31px;
+
+
+}
+
+.header__navbar ul li:hover,
+.header__navbar ul li a.active {
+  background-color: royalblue;
+  color: black;
+}
+
+.header__navbar ul li a {
+  color: inherit;
+  text-decoration: inherit;
+  display: inherit;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
